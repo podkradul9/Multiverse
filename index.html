@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiverse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>Across the spider-verse</span>
+        </div>
+        <div id="about">
+            <a href="#" onclick="slowScroll('#main')" title="О нас">Информация</a>
+            <a href="#" onclick="slowScroll('#overview')" title="Табуляции мелодий">Табулатура</a>
+            <a href="#" onclick="slowScroll('#contacts')" title="Связаться с нами">Обратная связь</a>
+            <a href="#" onclick="slowScroll('#faq')" title="Часто задаваемые вопросы">FAQ</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Музыка – единственный язык в мире,<br> который не нуждается в переводе...</h1>
+        <h3>Его понимают все.</h3>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Табы для гитары</h2>
+            <span>Табулатура мелодий из мультфильма</span>
+        </div>
+        <div class="text">
+            <span> Простые табы для гитары мелодий из компьютерно-анимационных супергеройских фильмов Spider-Man: Into
+                the Spider-Verse и Spider-Man: Across the Spider-Verse</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Табулатура</h2>
+        <h4>Мелодии из мультфильмов Spider-Man: Into the Spider-Verse и Spider-Man: Across the Spider-Verse</h4>
+
+        <div class="img">
+            <img src="https://i.ytimg.com/vi/pA2ElzktvSE/maxresdefault.jpg" alt="">
+            <span>Табулатура мелодии Post Malone, Swae Lee - Sunflower из мультфильма Spider-Man: Into the
+                Spider-Verse</span>
+        </div>
+        <div class="img">
+            <img src="https://wallpaperaccess.com/full/5211624.jpg" alt="">
+            <span>Табулатура мелодии Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming из мультфильма Spider-Man: Across
+                the Spider-Verse</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center>
+            <h5>Обратная связь</h5>
+        </center>
+        <form id="form_input" action="sitephp.php" method="post">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+
+            <label for="email">Ваша почта <span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email"><br>
+
+            <label for="message">Сообщение <span>*</span></label><br>
+            <textarea placeholder="Введите сообщение" name="message" id="message"></textarea><br>
+            <div>
+                <button class="btn" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Способы оплаты</span><br>
+            <span class="heading">1. Как я могу оплатить табулатуры на вашем сайте?</span>
+            <p>Мы принимаем оплату через различные платежные системы, включая PayPal и кредитные карты. Выберите удобный
+                для вас способ оплаты при оформлении заказа.</p>
+            <span class="heading">2. При попытке оплаты заказа на сайте возникла ошибка, в чем дело?</span>
+            <p>Проблемы с оплатой, как правило, обусловлены следующими причинами:
+                1.Некорректный ввод кода верификации, присланного банком.
+                Рекомендуем запросить новый SMS-код для верификации платежа. Убедитесь в правильности его ввода.
+                2.На Вашей кредитной или дебетовой карте недостаточно средств.
+                Рекомендуем перед покупкой убедиться, что на Вашем счету достаточно средств для полной оплаты заказа.
+                3.С целью предупреждения мошеннических действий мы используем собственную систему контроля рисков для
+                проверки транзакций по оплате.
+                4.Низкое качество интернет-соединения.
+            </p>
+            <span class="heading">3. Как я получу доступ к табулатурам после оплаты?</span>
+            <p>После оплаты вы получите электронное письмо с ссылкой на скачивание табулатур. Вы также можете найти все
+                свои заказы в личном кабинете на нашем сайте.
+            </p>
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">1. Какие табулатуры доступны на вашем сайте?</span>
+            <p>На нашем сайте вы можете найти табулатуры для различных жанров музыки, включая рок, поп, блюз, джаз и
+                многое другое. Мы также предлагаем табулатуры для различных инструментов, таких как гитара, бас-гитара и
+                укулеле.</p>
+            <span class="heading">2. Как часто обновляются табулатуры на вашем сайте?</span>
+            <p>Мы постоянно добавляем новые табулатуры на наш сайт, поэтому вы всегда найдете свежие и актуальные
+                табулатуры.</p>
+            <span class="heading">3. Могу ли я заказать табулатуру для конкретной песни, которой нет на вашем
+                сайте?</span>
+            <p>Да, вы можете заказать табулатуру для конкретной песни через форму обратной связи на нашем сайте. Мы
+                постараемся добавить эту табулатуру на наш сайт в ближайшее время.</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span><br>
+            <span class="heading">1. Какие гарантии предоставляет ваш сайт при покупке табулатур для гитары?</span>
+            <p>Мы гарантируем, что все наши табулатуры являются оригинальными и точными. Мы также гарантируем полную
+                конфиденциальность ваших данных при оплате и получении заказа.</p>
+            <span class="heading">2. Что делать, если табулатура не соответствует описанию?</span>
+            <p>Если табулатура не соответствует описанию, мы вернем вам деньги или предоставим другую табулатуру на ваш
+                выбор.</p>
+            <span class="heading">3. Могу ли я использовать табулатуры для коммерческих целей?</span>
+            <p>Нет, все табулатуры нашего сайта предназначены только для личного использования и не могут быть
+                использованы для коммерческих целей без нашего согласия.</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+        $(document).on("scroll", function () {
+            if ($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+        });
+    </script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("/sw.js").then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log("ServiceWorker registration successful with scope: ", registration.scope);
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log("ServiceWorker registration failed:", err);
+                    });
+            });
+        }
+    </script>
+
+</body>
+
+</html>
